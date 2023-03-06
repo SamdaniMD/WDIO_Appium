@@ -1,4 +1,4 @@
-const path = required( 'path' )
+// const path = require('path')
 
 export const config = {
     //
@@ -26,6 +26,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
+        'test/specs/**/*.js',
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
@@ -58,7 +59,8 @@ export const config = {
         'appium:platformName' : 'Android',
         'appium:platformVersion' : '12.0',
         'appium:deviceName' : 'Pixel 6',
-        'appium:app' : path.join(process.cwd(), 'app\android\ApiDemos-debug.apk')
+        'appium:automationName':'UIAutomator2',
+        'appium:app' :'C:/Users/mbaig/MobileAutomation/WDIO_Appium/app/android/com.flipkart.android.1670100.apk'
     }],
     //
     // ===================
