@@ -60,7 +60,7 @@ export const config = {
         'appium:platformVersion' : '12.0',
         'appium:deviceName' : 'Pixel 6',
         'appium:automationName':'UIAutomator2',
-        'appium:app' :'C:/Users/mbaig/MobileAutomation/WDIO_Appium/app/android/com.flipkart.android.1670100.apk'
+        'appium:app' :'C:/Users/mbaig/MobileAutomation/WDIO_Appium/app/android/ApiDemos-debug.apk'
     }],
     //
     // ===================
