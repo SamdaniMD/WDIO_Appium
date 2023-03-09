@@ -26,7 +26,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        'test/specs/**/*.js',
+        'test/specs/**/and*.js',
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
@@ -60,7 +60,8 @@ export const config = {
         'appium:platformVersion' : '12.0',
         'appium:deviceName' : 'Pixel 6',
         'appium:automationName':'UIAutomator2',
-        'appium:app' :'C:/Users/mbaig/MobileAutomation/WDIO_Appium/app/android/ApiDemos-debug.apk'
+        'appium:app' :'C:/Users/mbaig/MobileAutomation/WDIO_Appium/app/android/ColorNote+Notepad.apk',
+        'appium:autoGrantPermissions':true
     }],
     //
     // ===================
